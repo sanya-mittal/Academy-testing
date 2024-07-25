@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Orange HRM_Claim_all clicks</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a0ed2c58-3140-49e0-b995-bb2a33ca1cfa</testCaseGuid>
+</TestCaseEntity>

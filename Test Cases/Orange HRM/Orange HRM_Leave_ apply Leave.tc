@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Orange HRM_Leave_ apply Leave</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b0b4799-49c0-44f8-9123-a4bdc4a9cf60</testCaseGuid>
+</TestCaseEntity>

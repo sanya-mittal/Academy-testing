@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Orange HRM_Admin_Organization clicks</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f71e7988-63ed-49b7-b51d-17b5aa4d465d</testCaseGuid>
+</TestCaseEntity>

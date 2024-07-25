@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Health app- appointment Tokyo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>705db3f5-9622-425a-8ede-eccd2fff0241</testCaseGuid>
+</TestCaseEntity>

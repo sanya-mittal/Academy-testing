@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View All Women</name>
+   <tag></tag>
+   <elementGuidId>ee46e308-8847-4e2a-b4da-1c3d9adcd36a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.level1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='nav']/ol/li/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;View All Women&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>67fd62b0-dca8-45b6-82ac-4b6242711e7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>level1</value>
+      <webElementGuid>b5f4b5b7-9400-4153-b058-c51b6b53430c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://ecommerce.tealiumdemo.com/women.html</value>
+      <webElementGuid>70dba9af-e498-4ac2-8bb6-64adda98c214</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View All Women</value>
+      <webElementGuid>dadee4fb-06a4-45dc-9ee1-a4e2b9d9ac46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav&quot;)/ol[@class=&quot;nav-primary&quot;]/li[@class=&quot;level0 nav-1 first parent menu-active&quot;]/ul[@class=&quot;level0&quot;]/li[@class=&quot;level1 view-all menu-active&quot;]/a[@class=&quot;level1&quot;]</value>
+      <webElementGuid>2dacaed1-07bb-4016-9536-d72999eb905b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='nav']/ol/li/ul/li/a</value>
+      <webElementGuid>f5947feb-e4d4-41e8-94a8-daaa287fc3ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View All Women')]</value>
+      <webElementGuid>aceb08a1-1c52-4cec-9631-c2e55ef1face</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Women'])[1]/following::a[1]</value>
+      <webElementGuid>e7b6ac62-3b24-4fa0-a09a-e2cefecda555</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::a[3]</value>
+      <webElementGuid>8a8505c2-fab7-4b12-a47d-2eb07ee86d15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Arrivals'])[1]/preceding::a[1]</value>
+      <webElementGuid>1befb48e-d940-4477-9616-53d52e2dea0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tops &amp; Blouses'])[1]/preceding::a[2]</value>
+      <webElementGuid>5a7fcbc7-42fe-4397-83df-5e251c190818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View All Women']/parent::*</value>
+      <webElementGuid>af5e7103-8da5-4ab2-81b1-676af278507d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://ecommerce.tealiumdemo.com/women.html')])[2]</value>
+      <webElementGuid>18fe227a-ebd6-44bc-b895-c0e15b2c8c6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li/a</value>
+      <webElementGuid>247cdde1-ca63-4aac-a224-a1d555021020</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://ecommerce.tealiumdemo.com/women.html' and (text() = 'View All Women' or . = 'View All Women')]</value>
+      <webElementGuid>6f45258e-279e-42f0-9718-8c8717974694</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

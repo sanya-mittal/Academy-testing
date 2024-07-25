@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Health app login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>84bf0ef0-d2b8-4edf-b42a-8806f2ccf501</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>db3f007e-5c0e-4f0e-8169-233103365ac3</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/health app data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>db3f007e-5c0e-4f0e-8169-233103365ac3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>703fc323-5e90-49ac-89c4-a8a8a449639b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>db3f007e-5c0e-4f0e-8169-233103365ac3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>13d195f3-700a-4335-8e00-5a9f02bc28a4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>703fc323-5e90-49ac-89c4-a8a8a449639b</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>13d195f3-700a-4335-8e00-5a9f02bc28a4</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

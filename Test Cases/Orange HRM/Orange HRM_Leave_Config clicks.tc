@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Orange HRM_Leave_Config clicks</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49270ef8-8779-4fc0-bcd3-5f2d5bfae8cc</testCaseGuid>
+</TestCaseEntity>
