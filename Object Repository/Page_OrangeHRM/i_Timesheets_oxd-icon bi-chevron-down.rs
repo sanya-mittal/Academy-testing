@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div[23]/div/div[4]/div/button/i</value>
+         <value>//div[@id='app']/div/div/header/div/div[2]/ul/li/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

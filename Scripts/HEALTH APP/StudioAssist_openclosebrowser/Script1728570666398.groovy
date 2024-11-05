@@ -17,23 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+/* Write a Katalon Studio test case to perform the following steps.
+ * 1. Open browser to the URL "https://katalon-demo-cura.herokuapp.com/"
+ * 5. Verify that the appointment div exists
+ * 6. Close the browser
+ * */
+// Open browser to the URL "https://katalon-demo-cura.herokuapp.com/"
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+// Verify that the appointment div exists
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'),10)
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), Username)
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), Password)
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
-
-
-
+// Close the browser
 WebUI.closeBrowser()
 
-
-
+/*
+*  Automates opening a browser to a specific URL, verifying the existence of an appointment div, and then closing the browser.
+*
+*  1. Open a browser and navigate to "https://katalon-demo-cura.herokuapp.com/"
+*  2. Verify the presence of the appointment div within 10 seconds
+*  3. Close the browser
+*
+*/
 
 

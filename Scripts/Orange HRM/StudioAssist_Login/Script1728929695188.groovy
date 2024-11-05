@@ -17,23 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/* Studio Assist Prompt
+ *  1. Open Browser
+ *  2. Navigate to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+ *  3. Set the object input_Username_username as "admin"
+ *  4. Set the object input_Password_password as "admin123"
+ *  5. Click the object button_Login 
+ *  6. close the browser
+  * 
+ */
+
+// Open Browser
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+// Navigate to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+// Set the object input_Username_username as "admin"
+WebUI.setText(findTestObject('Page_ORANGEHRM/input_Username_username'), 'admin')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), Username)
+// Set the object input_Password_password as "admin123"
+WebUI.setText(findTestObject('Page_ORANGEHRM/input_Password_password'), 'admin123')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), Password)
+// Click the object button_Login
+WebUI.click(findTestObject('Page_ORANGEHRM/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
-
-
-
+// Close the browser
 WebUI.closeBrowser()
-
-
-
-
-

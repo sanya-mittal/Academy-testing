@@ -29,11 +29,7 @@ WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/inp
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-
+CustomKeywords.'RefreshBrowser.refreshBrowser'()
 
 WebUI.closeBrowser()
-
-
-
-
 

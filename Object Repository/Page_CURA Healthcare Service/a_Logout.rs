@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_My Timesheets</name>
+   <name>a_Logout</name>
    <tag></tag>
-   <elementGuidId>0d125033-c69f-474c-8019-f8c42907a16a</elementGuidId>
+   <elementGuidId>45d2b1f7-590b-4e69-a861-3b05a4600a9d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.oxd-topbar-body-nav-tab-link</value>
+         <value>li:nth-of-type(5) > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, '#')]</value>
+         <value>(//a[@onclick=&quot;$('#menu-close').click();&quot;])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=menuitem[name=&quot;My Timesheets&quot;i]</value>
+         <value>#sidebar-wrapper >> internal:role=link[name=&quot;Logout&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,118 +29,126 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>59d65dfe-5c74-41fd-8042-485c92252469</webElementGuid>
+      <webElementGuid>29cbf9ac-f8e7-4cd3-ad62-a5221edaafa0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>c9abae2f-1c31-4bdc-8353-12328fcecd06</webElementGuid>
+      <value>authenticate.php?logout</value>
+      <webElementGuid>5f3c6d81-108b-4bae-a8b2-fed5c0759f0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>menuitem</value>
-      <webElementGuid>6f2a699a-a5d1-4916-8996-7c22eec7b59b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>oxd-topbar-body-nav-tab-link</value>
-      <webElementGuid>4aa9abf0-0fcb-4bcf-b947-e96711144163</webElementGuid>
+      <value>$('#menu-close').click();</value>
+      <webElementGuid>0a4602cc-3810-436c-9939-04e06bc0836e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>My Timesheets</value>
-      <webElementGuid>c839f4d1-8082-4351-9205-6d4ca638144e</webElementGuid>
+      <value>Logout</value>
+      <webElementGuid>4a5617c4-b52e-46f7-b9f5-fd12c169fc34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;--active oxd-topbar-body-nav-tab --parent --visited&quot;]/ul[@class=&quot;oxd-dropdown-menu&quot;]/li[1]/a[@class=&quot;oxd-topbar-body-nav-tab-link&quot;]</value>
-      <webElementGuid>331cc31a-06c8-4363-88e2-25a4efe4869d</webElementGuid>
+      <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-nav&quot;]/li[5]/a[1]</value>
+      <webElementGuid>5001c691-53d0-4997-9345-5d2ecf7fbed7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick=&quot;$('#menu-close').click();&quot;])[5]</value>
+      <webElementGuid>d783fbc8-7d21-4b14-9529-db9102e062e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li/ul/li/a</value>
-      <webElementGuid>e4061b7a-7f5c-4904-b0d5-886608d5b961</webElementGuid>
+      <value>//nav[@id='sidebar-wrapper']/ul/li[5]/a</value>
+      <webElementGuid>9cddf5a2-67ba-4aad-b5a2-b5cb6eeaac3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'My Timesheets')]</value>
-      <webElementGuid>8352ee6e-a81f-480d-876f-820ae3d40bca</webElementGuid>
+      <value>//a[contains(text(),'Logout')]</value>
+      <webElementGuid>3f640f15-06c1-49ec-8880-be2627a2524b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Timesheets'])[1]/following::a[1]</value>
-      <webElementGuid>c73e88a8-e94e-400b-9da5-e720d9997644</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::a[1]</value>
+      <webElementGuid>e61eb3bd-2c65-48e8-87af-ddc3a6b2c04f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attendance'])[1]/preceding::a[2]</value>
-      <webElementGuid>e22e8ed4-bafa-4952-a0cf-42311005710b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[1]/following::a[2]</value>
+      <webElementGuid>3b905d32-fab0-4eb9-9a3d-df5fdec7798f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[1]/preceding::a[2]</value>
-      <webElementGuid>911355be-84b9-4292-a58c-2d1b3a55a9b8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[2]/preceding::a[1]</value>
+      <webElementGuid>42c44658-f10a-4ba8-b138-23e7fff2b548</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='My Timesheets']/parent::*</value>
-      <webElementGuid>16e92482-5097-4b3c-a1b8-faec4f49161c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/preceding::a[1]</value>
+      <webElementGuid>15cd0779-3051-4342-a924-42fe66809794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
+      <webElementGuid>040d56c9-23b8-4596-9354-8323a0a6d82d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>d654fbbf-2ba0-4b58-8092-3a2c215800d7</webElementGuid>
+      <value>//a[contains(@href, 'authenticate.php?logout')]</value>
+      <webElementGuid>5e626d1d-c017-47e5-9725-b3b2af4f842c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/ul/li/a</value>
-      <webElementGuid>e84de971-509e-4447-829a-7b9cd01a53ee</webElementGuid>
+      <value>//li[5]/a</value>
+      <webElementGuid>8e33766c-0bb1-4e9c-91b8-1c404276df98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'My Timesheets' or . = 'My Timesheets')]</value>
-      <webElementGuid>872c2147-d134-4406-b4a4-7caa63ff0171</webElementGuid>
+      <value>//a[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>193cc2d2-abeb-4c1d-bd1b-a4545a8346aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

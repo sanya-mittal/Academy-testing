@@ -19,21 +19,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://ecommerce.tealiumdemo.com/')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/Page_Tealium Ecommerce Demo/a_About Us'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), Username)
+WebUI.click(findTestObject('Object Repository/Page_Tealium Ecommerce Demo/span_Contact us'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), Password)
+WebUI.click(findTestObject('Object Repository/Page_Tealium Ecommerce Demo/span_Customer Service'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Tealium Ecommerce Demo/span_Privacy Policy'))
 
-
+WebUI.click(findTestObject('Object Repository/Page_Tealium Ecommerce Demo/span_About Tealium'))
 
 WebUI.closeBrowser()
 
-
-
-
-
+/*
+*  This code opens a browser, navigates to a specific URL, clicks on various elements on a webpage, and then closes the browser.
+*
+*  1. Import necessary classes and packages for Katalon Studio keywords and objects.
+*  2. Define aliases for commonly used Katalon Studio classes and keywords.
+*  3. Open a browser.
+*  4. Navigate to a specific URL.
+*  5. Click on different elements on the webpage using predefined test objects.
+*  6. Close the browser.
+*
+*/

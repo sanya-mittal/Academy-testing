@@ -19,21 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+CustomKeywords.'custom_package.printHello.printIt'()
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), Username)
+WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'admin')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), Password)
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_password'), 'admin123')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
-
-
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 
 WebUI.closeBrowser()
-
-
-
-
 

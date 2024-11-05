@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with custom keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>100b1d4e-c037-4e8f-b0cd-75d60429c1ee</testCaseGuid>
+</TestCaseEntity>
