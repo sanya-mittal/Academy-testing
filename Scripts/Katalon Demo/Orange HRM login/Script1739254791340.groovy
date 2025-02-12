@@ -33,3 +33,15 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 
 WebUI.closeBrowser()
 
+      /*
+      *  Automate the login process for a web application.
+      *
+      *  1. Open a web browser.
+      *  2. Close the browser immediately after opening it.
+      *  3. Open the web browser again to navigate to the login page of the application.
+      *  4. Set the username in the username input field.
+      *  5. Set the password in the password input field.
+      *  6. Click the login button to attempt to log in.
+      *  7. Close the browser after the login attempt.
+      *
+      */
