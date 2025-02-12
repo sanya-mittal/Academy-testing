@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1a3650fc-c321-4d1c-9299-f06bfae7d6e4</webElementGuid>
+      <webElementGuid>290659a6-75a9-40a5-af36-c8ea2cf2ca0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>17ab0ffd-d62e-4aaf-b8b3-813a9ebc3378</webElementGuid>
+      <webElementGuid>949b7a02-b0ca-4152-ab79-20fb65adabf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>c34e1037-16e2-4503-b3a2-107cebdb8727</webElementGuid>
+      <webElementGuid>d7f707f7-b68a-41c5-998c-0c5c890751b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txt-password</value>
-      <webElementGuid>6d73b41a-0cbd-4f5b-bfd2-8b92295a9eff</webElementGuid>
+      <webElementGuid>416354a3-1888-4d54-91e6-ce92af93e2c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>96f56a25-a586-48f5-8840-8f173c2ff815</webElementGuid>
+      <webElementGuid>32b5133d-7fd6-49b1-b52e-83afa81697de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Password</value>
-      <webElementGuid>634a387f-c551-413a-a2ca-1108dc6714d4</webElementGuid>
+      <webElementGuid>edff7bc2-4262-4728-87d6-beb6c3248f54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>0ae7e583-dffa-4674-b9d4-26c6200c3e0b</webElementGuid>
+      <webElementGuid>d3f21d9b-61ac-4980-82ce-7be153abb402</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txt-password&quot;)</value>
-      <webElementGuid>3dc374b1-0e24-4fd6-aee9-a31e27769e04</webElementGuid>
+      <webElementGuid>aa55d812-f191-4c4b-86cb-3ff28ac83cb8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txt-password']</value>
-      <webElementGuid>7366b0c9-84be-4b91-903f-a268c8b2f177</webElementGuid>
+      <webElementGuid>cf0cd133-2bc8-4fcc-8f9a-fbb12690e1d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='login']/div/div/div[2]/form/div[3]/div/input</value>
-      <webElementGuid>c82c0c9a-aa3a-4dfa-aa9d-088b75518a47</webElementGuid>
+      <webElementGuid>1e37cb96-3024-41ee-b7c9-82873dae4c4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/input</value>
-      <webElementGuid>958dc0ee-ea56-46dd-8afc-83cb4944d791</webElementGuid>
+      <webElementGuid>99a891b6-2500-45bb-b7d4-9a30c7484aaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
-      <webElementGuid>db7ab0d0-cc38-40ae-869c-50771c49f45a</webElementGuid>
+      <webElementGuid>dde92934-430b-46e8-abab-65bf59116d93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

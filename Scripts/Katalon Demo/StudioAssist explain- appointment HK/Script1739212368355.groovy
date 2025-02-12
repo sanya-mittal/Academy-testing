@@ -42,17 +42,19 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/butto
 
 WebUI.closeBrowser()
 
-      /*
-      *  Automate the process of booking an appointment on a healthcare service website.
-      *
-      *  1. Open a web browser to access the specified URL of the healthcare service.
-      *  2. Click on the "Make Appointment" link to navigate to the appointment booking page.
-      *  3. Input the username and password to log in to the service.
-      *  4. Select the healthcare center from the dropdown menu.
-      *  5. Choose a visit date by clicking on the calendar and selecting a date.
-      *  6. Enter a comment regarding the appointment in the provided text area.
-      *  7. Click the "Book Appointment" button to finalize the appointment.
-      *  8. Close the web browser after completing the process.
-      */
 
-
+/*
+*  Automates a series of actions on a healthcare service website using Katalon Studio.
+*
+*  1. Imports necessary classes and methods from Katalon Studio libraries.
+*  2. Opens a browser and navigates to a specific URL.
+*  3. Clicks on a "Make Appointment" button.
+*  4. Enters username and password.
+*  5. Logs in by clicking the login button.
+*  6. Selects a healthcare center from a dropdown.
+*  7. Chooses a visit date.
+*  8. Enters a comment for the appointment.
+*  9. Books the appointment by clicking the corresponding button.
+*  10. Closes the browser.
+*
+*/

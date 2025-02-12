@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>e5594841-7cb0-4811-b771-3b2d8a2750ef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Orange HRM/Orange HRM_Admin_add user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -28,7 +28,7 @@
    <testCaseLink>
       <guid>4d72346b-c379-4e0f-b55b-01d2baddc5a2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Orange HRM/Orange HRM_Admin_job section clicks</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -42,7 +42,7 @@
    <testCaseLink>
       <guid>41bd28fc-4a64-48a4-96d2-6c40e56b7b27</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Orange HRM/Orange HRM_Admin_Organization clicks</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

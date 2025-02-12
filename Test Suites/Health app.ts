@@ -21,8 +21,8 @@
    <testCaseLink>
       <guid>2722ae7b-35ab-4c46-8769-907381043e2c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/HEALTH APP/Health app login</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/HEALTH APP/Health app login- DDT</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

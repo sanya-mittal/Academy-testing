@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Self Healing Example- Health</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>29034cd0-7b2c-41cf-be55-d77bfd2d3412</testCaseGuid>
+</TestCaseEntity>

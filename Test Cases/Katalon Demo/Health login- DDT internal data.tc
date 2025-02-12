@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Health login- DDT internal data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a57ee6a3-9543-4118-9a9a-bd9b3c532e49</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>85d5e3b8-1c99-4dc0-a9e1-6caf7b37027e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/health app data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>85d5e3b8-1c99-4dc0-a9e1-6caf7b37027e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>5371f7ff-3f1e-4431-823f-fab8ceeeeecb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>85d5e3b8-1c99-4dc0-a9e1-6caf7b37027e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>0a3ca97c-e048-4f8b-9d59-7b5b3eb869e6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'sanya'</defaultValue>
+      <description></description>
+      <id>5371f7ff-3f1e-4431-823f-fab8ceeeeecb</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'sanya'</defaultValue>
+      <description></description>
+      <id>0a3ca97c-e048-4f8b-9d59-7b5b3eb869e6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

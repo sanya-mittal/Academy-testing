@@ -29,30 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Se
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Tokyo CURA Healthcare Center', true)
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_18'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Appointment tokyo')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+CustomKeywords.'custom_package.printHello.printIt'()
 
 WebUI.closeBrowser()
-
-      /*
-      *  Automate the process of booking an appointment on a healthcare service website.
-      *
-      *  1. Open a web browser to access the specified URL of the healthcare service.
-      *  2. Click on the "Make Appointment" link to navigate to the appointment booking page.
-      *  3. Input the username and password to log in to the service.
-      *  4. Select the healthcare center from the dropdown menu.
-      *  5. Choose a visit date by clicking on the calendar and selecting a date.
-      *  6. Enter a comment regarding the appointment in the provided text area.
-      *  7. Click the "Book Appointment" button to finalize the appointment.
-      *  8. Close the web browser after completing the process.
-      */
-
 

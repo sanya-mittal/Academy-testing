@@ -15,7 +15,7 @@
       <guid>f1dfee55-1c2f-44ad-94d1-5095a496e62c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HEALTH APP/Health app login</testCaseId>
+      <testCaseId>Test Cases/HEALTH APP/Health app login- DDT</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
